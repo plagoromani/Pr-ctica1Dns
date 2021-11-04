@@ -9,7 +9,7 @@ services:
     ports:
       - 53:53
     volumes:
-      - conf:/etc/bind
+      - volumedns:/etc/bind
   asir_cliente:
     container_name: asir_cliente
     image: ubuntu
@@ -20,7 +20,7 @@ services:
     dns:
       - 10.1.0.254  # el contenedor dns server
 volumes:
-  conf:
+  volumedns:
     external: true # tenemos que tenerlo creado previamente
 networks:
   br02: 
