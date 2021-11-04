@@ -32,3 +32,11 @@
 ## Empleamos comando: docker network create --subnet 10.1.0.0/24 --gateway 10.1.0.1 br02
 ## LISTAR REDES CREADAS: docker network ls
 ## INSPECCIONAR RED CREADA: docker network inspect br02
+
+# EJECUCIÓN DOCKER COMPOSE
+## LANZAR DOCKER-COMPOSE.YML:                                   docker-compose up
+## PARAR SERVICIO:                                              docker stop
+## ARRANCAR SERVICIO:                                           docker start
+## ELIMINAR CONTENEDORES,RED,VOLUMEN E IMAGEN CREADAS:          docker-compose down
+## ACCEDER A LA SHELL:                                          docker exec "name-container" bash
+
