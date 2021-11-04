@@ -39,4 +39,18 @@
 ## ARRANCAR SERVICIO:                                           docker start
 ## ELIMINAR CONTENEDORES,RED,VOLUMEN E IMAGEN CREADAS:          docker-compose down
 ## ACCEDER A LA SHELL:                                          docker exec "name-container" bash
-
+##
+# INSTALACIÓN PAQUETES
+##
+## ASIR_CLIENTE:
+## apt update                                   -ACTUALIZAR PAQUETES
+## apt-get install -y iputils-ping              -INSTALACIÓN PAQUETE PING 
+## apt-get install iputils-tracepath            -INSTALACIÓN PAQUETE TRACE
+## apt install net-tools                        -INSTALACIÓN PAQUETE APLICACIONES DE RED(IFCONFIG..) 
+## apt-get install -y ifupdown
+## apt-get install dnsutils -y                  -INSTALACIÓN DE LOS COMANDOS DNS 
+## apt-get install -y whois                     -INSTALACIÓN PAQUETE WHOIS
+## apt install -y curl                          -INSTALACIÓN CURL PARA TRANSFERENCIA DE ARCHIVOS.
+##
+## ASIR_BIND9
+## apt-get install net-tools                    -INSTALACIÓN PAQUETE APLICACIONES DE RED(IFCONFIG...)
