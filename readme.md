@@ -28,3 +28,5 @@
 ##  br02: 
 ##    external: true
 
+# CREACIÓN DE RED br02
+## Empleamos comando: docker network create --subnet 10.1.0.0/24 --gateway 10.1.0.1 br02
