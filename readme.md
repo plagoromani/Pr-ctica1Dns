@@ -30,3 +30,5 @@
 
 # CREACIÓN DE RED br02
 ## Empleamos comando: docker network create --subnet 10.1.0.0/24 --gateway 10.1.0.1 br02
+## LISTAR REDES CREADAS: docker network ls
+## INSPECCIONAR RED CREADA: docker network inspect br02
